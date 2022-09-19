@@ -35,3 +35,39 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   - ¿Qué son los módulos ES (ESM)?
 
     Está implementada la forma nativa con Ecmascript6+ que le permite usar <code>export</code> y <code>import</code> para poder  trabaja con módulos de una manera fácil.
+
+## Empaquetadores de módulos más populares
+  Cada una de estas herramientas serviran para sacar ventaja según la necesidad que requiere el proyecto. Cada una tiene una propuesta.
+
+  ### [Webpack](https://webpack.js.org/)
+  - Gestión de dependencias
+  - Ejecución de tareas
+  - Conversión de formatos
+  - Servidor de desarrollo
+  - Mas popular
+
+  ### [Parcel](https://parceljs.org/)
+  - Gestión de dependencias
+  - Ejecución de tareas
+  - Servidor de desarrollo
+  - Diagnóstico de implementación
+  - Tree shaking separar el código que no utilizamos de no ser agregadas al proyecto.
+
+  ### [ESBuild](https://esbuild.github.io/)
+  - Velocidad extrema
+  - Ejecución de tareas
+  - Tree shaking
+  - ES6 y CommonJS modules
+
+  ### [Rollup]()
+  - Fácil ejecución de dependencias
+  - Ejecución de tareas
+  - Tree shaking
+  - ES6 y CommonJS modules
+  - Contiene plugins
+  - https://rollupjs.org/guide/en/
+
+  ### [Vite](https://vitejs.dev/)
+  - La cual nos permite trabajar un proyecto con todo ya mencionado.
+  - Incluye todas estas ventajas.
+  - Gran versatilidad con typescript.
