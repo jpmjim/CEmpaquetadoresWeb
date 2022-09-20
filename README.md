@@ -71,3 +71,8 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   - La cual nos permite trabajar un proyecto con todo ya mencionado.
   - Incluye todas estas ventajas.
   - Gran versatilidad con typescript.
+
+## ¿Por qué necesitamos un empaquetador de módulos?
+  Un empaquetador te permite gestionar tu código, ver que se utiliza y que no, poner restricciones y reglar, ver que tipo de recursos admitir también como referenciar estos recursos al momento de hacer un deploy a producción para gestionar mejor el tema de optimización y seguridad.
+
+  Optimizan todo nuestro código y recursos para llevarlo a producción
