@@ -76,3 +76,19 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   Un empaquetador te permite gestionar tu código, ver que se utiliza y que no, poner restricciones y reglar, ver que tipo de recursos admitir también como referenciar estos recursos al momento de hacer un deploy a producción para gestionar mejor el tema de optimización y seguridad.
 
   Optimizan todo nuestro código y recursos para llevarlo a producción
+
+## Primeros pasos en Webpack
+  Webpack es un empaquetador de modulos que nacio a finales del 2012.
+
+  En esencia, webpack es un módulos estáticos para aplicaciones JavaScript modernas. Cuando webpack procesa su aplicación, crea internamente un gráfico de dependencia a partir de uno o más puntos de entrada y luego combina todos los módulos que necesita su proyecto en uno o más paquetes , que son activos estáticos desde los que servir su contenido.
+
+  Creamos nuestro proyecto:
+  ```bash
+  mkdir webpack
+  cd webpack
+  ó take webpack
+  #iniciamos el proyecto
+  npm init -y
+  # instalamos elementos base
+  npm i webpack webpack-cli -D
+  ```
