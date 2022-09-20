@@ -92,3 +92,9 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   # instalamos elementos base
   npm i webpack webpack-cli -D
   ```
+
+## Configuración de webpack
+  Instalación de nuevos paquetes:
+  ```bash
+  npm i html-webpack-plugin copy-webpack-plugin @babel/core babel-loader -D
+  ```
