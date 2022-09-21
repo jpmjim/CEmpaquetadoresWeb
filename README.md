@@ -147,3 +147,23 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   ```bash
   npm run deploy
   ```
+  **-------------------------------------------------------------------------------------------------**
+
+## Primeros pasos en Parcel
+  Parcel combina una excelente experiencia de desarrollo lista para usar con una arquitectura escalable que puede llevar su proyecto desde el inicio hasta una aplicación de producción masiva.
+
+  Cada empaquetador tiene diferente estructura de carpetas, comandos, o escritps tambien la forma compilación. Al final tiene el mismo objetivo.
+
+  Comandos para el proyecto:
+  ```bash
+  #creamos la carpeta
+  mkdir parcel
+  #inicializamos git y npm
+  git init
+  npm init -y
+  ```
+
+  Instlación de parcel
+  ```bash
+  npm i parcel -D
+  ```
