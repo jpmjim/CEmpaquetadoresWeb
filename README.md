@@ -103,3 +103,6 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   - Referencia del proyecto en esta dirección [link](https://gndx.io/)
   - Modificaremos los datos dentro de nuestro index.html que se encuentra en la carpeta public, con nuestros datos el cual esta haciendo uso de [Tailwind](https://tailwindui.com/).
   - Para trabajar de forma dinamica la pagina tomaremos toda la data de cada uno de los elementos como (las redes sociales, datos, links) que se encuentran dentro de nuestro index.js, [referencia](https://gist.github.com/gndx/304bb80d7d4cc10e1d9faddd6eeb2fac)
+
+## Lógica del árbol de links tipo linktree}
+  Dentro de nuestro index.js crearemos una constante de nombre **main**, el cual relizara la estructura y el llamado de cada uno de los datos que se encuentran dentro de **data**. Por ejemplo del **name** y los **links** que se añadiran dinamicamente.
