@@ -167,3 +167,10 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   ```bash
   npm i parcel -D
   ```
+
+## Proyecto a empaquetar: single page con Vanilla JavaScript
+  El proyecto estara basado en un API que es la siguiente:
+  
+  - [Platzi Fake Store API](https://fakeapi.platzi.com/) donde mostraremos los productos que contiene la imagen, el titulo y su precio agregarlo a un sitio web.
+
+  - [Recurso de los estilos](https://gist.github.com/gndx/f116ce87b54152cfbfc12fd30dd6b428) que usaremos dentro de nuestro archivo de **styles.css**.
