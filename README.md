@@ -131,3 +131,19 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
 
   Archivo de ejemplo como quedaria con todos los cambios.
   [Empaquetador de Webpack](https://gist.github.com/jpmjim/54fabec4670ed6f3bc0d7726ca3fe918)
+
+## Deploy en github
+  Instalamos el paquete **gh-pages** que tiene github para poder tener despliegue de paginas estaticas.
+  ```bash
+  npm i gh-pages -D
+  ```
+
+  Dentro de nuestros scripts creamos uno para el deploy.
+  ```bash
+  "deploy": "gh-pages -d dist"
+  ```
+
+  Ejecutamos en la terminal:
+  ```bash
+  npm run deploy
+  ```
