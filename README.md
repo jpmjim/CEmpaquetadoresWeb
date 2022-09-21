@@ -104,5 +104,30 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   - Modificaremos los datos dentro de nuestro index.html que se encuentra en la carpeta public, con nuestros datos el cual esta haciendo uso de [Tailwind](https://tailwindui.com/).
   - Para trabajar de forma dinamica la pagina tomaremos toda la data de cada uno de los elementos como (las redes sociales, datos, links) que se encuentran dentro de nuestro index.js, [referencia](https://gist.github.com/gndx/304bb80d7d4cc10e1d9faddd6eeb2fac)
 
-## Lógica del árbol de links tipo linktree}
+## Lógica del árbol de links tipo linktree
   Dentro de nuestro index.js crearemos una constante de nombre **main**, el cual relizara la estructura y el llamado de cada uno de los datos que se encuentran dentro de **data**. Por ejemplo del **name** y los **links** que se añadiran dinamicamente.
+
+## Empaquetando un proyecto con webpack
+  Instalamos un nuevo paquete:
+  ```bash
+  npm install webpack-dev-server -D
+  ```
+
+  Creamos dos nuevos scripts dentro de nuestro **package.json**
+  ```json
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  }
+  ```
+
+  Y desde la terminal realizamos el primer compilado, el cual optimizara cada uno de los archivos donde se alojaran en la carpeta de dist antes configurada:
+  ```bash
+  #para modo de production
+  npm run build
+  # para modo desarrollo
+  npm run start
+  ```
+
+  Archivo de ejemplo como quedaria con todos los cambios.
+  [Empaquetador de Webpack](https://gist.github.com/jpmjim/54fabec4670ed6f3bc0d7726ca3fe918)

@@ -1,9 +1,10 @@
 const $links = document.getElementById('links');
-const $name = document.querySelector('h1')
+const $name = document.querySelector('h1');
+const $nickname = document.querySelector('h2');
 
 const data = {
-  name: "Oscar Barajas",
-  nickname: "gndx",
+  name: "Jimmy J. Pecho Malqui",
+  nickname: "@jpmjim",
   description: "...",
   avatar: "...",
   social: [
@@ -22,7 +23,7 @@ const data = {
     {
       name: "blog",
       url: "https://example.com/",
-      color: "red",
+      color: "red", 
       emoji: "📖",
     },
     {
@@ -37,6 +38,7 @@ const data = {
 
 const main = () => {
   let name = document.createTextNode(data?.name);
+  let nickname = document.createTextNode(data?.nickname);
   let links = data?.links?.map((link) => {
     return `<div class="bg-${link.color}-200 px-4 py-5 w-full flex justify-between">
           <a class="text-sm font-bold text-${link.color}-600 text-center hover:text-${link.color}-800 cursor-pointer"
@@ -50,6 +52,7 @@ const main = () => {
   newItem.innerHTML = links;
   $links.appendChild(newItem);
   $name.appendChild(name);
+  $nickname.appendChild(nickname);
 }
 
 main();
