@@ -223,4 +223,7 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   #inicializamos typescript para para el archivo de configuración
   npx tsc --init --rootDir src --jsx react
   ```
-  
+
+## Proyecto a empaquetar: contador de React
+  Trabajaremos la estructura del proyecto compuesto por react y typescript.
+  Realizando un contador cuantas veces es pulsado mediante un boton.
