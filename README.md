@@ -202,3 +202,25 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   ```bash
   npm run deploy
   ```
+
+## Primeros pasos en ESBuild
+  Trabajaremos un proyecto usando react con esbuild. Lo unico que cambia el configuracion base de cada uno de los empaquetadores que estamos utilizando.
+
+  Inicializamos nuestro proyecto:
+  ```bash
+  #creamos nuestra carpeta
+  mkdir nombre_carpeta
+  #inicilizamos el repositorio local
+  git init
+  #inicializamos npm para configuracion base
+  npm init -y
+  ```
+
+  Instalación de los paquetes:
+  ```bash
+  npm i esbuild -D
+  npm i react react-dom @types/react @types/react-dom typescript
+  #inicializamos typescript para para el archivo de configuración
+  npx tsc --init --rootDir src --jsx react
+  ```
+  
