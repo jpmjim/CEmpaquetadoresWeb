@@ -177,3 +177,16 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
 
 ## Lógica del proyecto single page
   De crear la logica utilizando elemtos html, css, js como parte fundamental del proceso, donde parcel optimizan todo para no realizar muchas configuraciones enfocandonos sobre el proyecto.
+
+## Empaquetado un proyecto con parcel
+  Una de las caracteristicas de parcel es no tener mucha configuracion, a diferencia de webpack. Parcel es muy inteligente para detectar los archivos, el punto de entrada, los estilos, los scripts, sin tener que crear el archivo de la carpeta de public.
+
+  Corremos el proyecto:
+  ```bash
+  #compilado
+  npm run build
+  # al correr el build instala un nuevo paquete y la carpeta dist con sus archivos
+  posthtml-include
+  #ejecutamos
+  npm run start
+  ```

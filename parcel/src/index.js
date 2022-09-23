@@ -1,5 +1,5 @@
 const $app = document.getElementById("app");
-const API = "https://api.escuelajs.co/api/v1/products?offset=0&limit=10";
+const API = "https://api.escuelajs.co/api/v1/products?offset=5&limit=10";
 
 const main = async () => {
   // llamando a la API
@@ -9,7 +9,7 @@ const main = async () => {
   const output = products?.map((product) => {
     return `
       <article class="Card">
-        <img src="${product.images}">
+        <img src="${product.images[0]}">
         <h2>
           ${product.title} <small>Precio $ ${product.price}</small>
         </h2>
@@ -17,7 +17,7 @@ const main = async () => {
     `;
   }).join('');
   let newItem = document.createElement("section");
-  newItem.ClassList.add("Items");
+  newItem.classList.add("Items");
   newItem.innerHTML = output;
   $app.appendChild(newItem);
 }
