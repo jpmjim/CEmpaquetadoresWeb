@@ -190,3 +190,15 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   #ejecutamos
   npm run start
   ```
+## Deploy de Parcel
+  Instalamos el paquete de github:
+  ```bash
+  npm install gh-pages -D
+  #añadimos nuestro script en package.json
+  "deploy": "gh-pages -d dist"
+  ```
+
+  Ejecutamos el script:
+  ```bash
+  npm run deploy
+  ```
