@@ -8,7 +8,7 @@
     "build:dev": "node esbuild.dev.js",
     "start": "node esbuild.config.js -w",
     "open": "open public/index.html",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
