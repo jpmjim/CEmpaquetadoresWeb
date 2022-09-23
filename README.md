@@ -174,3 +174,6 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   - [Platzi Fake Store API](https://fakeapi.platzi.com/) donde mostraremos los productos que contiene la imagen, el titulo y su precio agregarlo a un sitio web.
 
   - [Recurso de los estilos](https://gist.github.com/gndx/f116ce87b54152cfbfc12fd30dd6b428) que usaremos dentro de nuestro archivo de **styles.css**.
+
+## Lógica del proyecto single page
+  De crear la logica utilizando elemtos html, css, js como parte fundamental del proceso, donde parcel optimizan todo para no realizar muchas configuraciones enfocandonos sobre el proyecto.
