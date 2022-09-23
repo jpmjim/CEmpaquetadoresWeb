@@ -262,3 +262,16 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   npm run start
   npm run open
   ```
+
+## Configuración de ESBuild serve
+  Añadiremos un nuevo archivo de configuración que nos permitira usar el concepto de servidor de entorno local para trabajar en el aplicativo.
+
+  Nuevo archivo en la raiz donde importaremos esbuild-serve:
+  ```bash
+  touch esbuild.config.js
+  ```
+
+  Dentro de nuestro script de start:
+  ```json
+  "start": "node esbuild.confi.js -w"
+  ```
