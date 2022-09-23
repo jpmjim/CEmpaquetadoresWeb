@@ -7,14 +7,16 @@
     "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
     "build:dev": "node esbuild.dev.js",
     "start": "node esbuild.config.js -w",
-    "open": "open public/index.html"
+    "open": "open public/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.15.9",
-    "esbuild-serve": "^1.0.1"
+    "esbuild-serve": "^1.0.1",
+    "gh-pages": "^4.0.0"
   },
   "dependencies": {
     "@types/react": "^18.0.21",
