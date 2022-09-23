@@ -227,3 +227,38 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
 ## Proyecto a empaquetar: contador de React
   Trabajaremos la estructura del proyecto compuesto por react y typescript.
   Realizando un contador cuantas veces es pulsado mediante un boton.
+
+## Empaquetado nuestro proyecto con ESbuild
+  Dentro de ESbuild existen dos metodos para el empaquetamiento mediante script o un archivo de configuración.
+
+  **Scripts**
+  ```json
+  #archivo package.json
+  "build": "esbuild src/index.tsx --minify --sourcemap --outfile=public/bundle.js"
+  ```
+
+  Terminal:
+  ```bash
+  #compilado es casi inmediato
+  npm run build
+  ```
+
+  Instalamos la dependencia que nos genera entorno de desarrollo local:
+  ```bash
+  #terminal
+  npm i esbuild-serve -D
+  ```
+  
+  Crearemos el archivo de configuración en la raiz que es **esbuild.dev.js**. Creamos un nuevo script para ejecutar este archivo:
+  ```bash
+  "build:dev": "node esbuild.dev.js"
+  "start": "node esbuild.dev.js -w",
+  "open": "open public/index.html"
+  ```
+
+  Ejecutamos los comandos en la terminal:
+  ```bash
+  npm run build:dev
+  npm run start
+  npm run open
+  ```
