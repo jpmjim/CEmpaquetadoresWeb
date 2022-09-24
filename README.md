@@ -311,4 +311,7 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
 
 ## Configurando plugins de Rollup
   Integraremos los plugins a nuestro archivo de configuración de rollup. Cada plugin tiene una configuracion por defecto o tambien pasarle objetos de configuracion segun sea la necesidad.
-  
+
+## Proyecto a empaquetar: Fake API
+  - Utilizaremos la [API de Platzi](https://fakeapi.platzi.com/).
+  - Los [estilos](https://gist.github.com/gndx/a7dc22ce7d5364d7f57c5fefeafa67cc) para el proyecto en el archivo **styles.css**.
