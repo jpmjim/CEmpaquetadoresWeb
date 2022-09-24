@@ -308,3 +308,7 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   npm i @rollup/plugin-image -D
   npm install rollup-plugin-copy rollup-plugin-css-only -D
   ```
+
+## Configurando plugins de Rollup
+  Integraremos los plugins a nuestro archivo de configuración de rollup. Cada plugin tiene una configuracion por defecto o tambien pasarle objetos de configuracion segun sea la necesidad.
+  
