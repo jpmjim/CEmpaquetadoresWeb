@@ -288,3 +288,23 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   npm run deploy
   ```
   
+## Primeros pasos en Rollup
+  Trabajaremos el proyecto usando un templatede html que vamos autogenerar, trabajando con plugin,donde tendremos mas elementos dentro del proyecto.
+
+  Añadimos nuestra carpeta y inicilizamos el proyecto:
+  ```bash
+  mkdir rollup
+  cd rollup
+  git init
+  npm init -y
+  ```
+
+  Instalación de rollup y las dependencias que usaremos:
+  ```bash
+  npm install rollup -D
+  #nos ayudara a generar un archivo html
+  npm i @rollup/plugin-html -D
+  #para las imagenes
+  npm i @rollup/plugin-image -D
+  npm install rollup-plugin-copy rollup-plugin-css-only -D
+  ```
