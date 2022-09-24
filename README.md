@@ -334,3 +334,20 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   Corremos los scripts en la terminal:
   ```bash
   #primero nuestro build para generar la carpeta dist
+  npm run build
+  #de forma local
+  npm run start
+  ```
+
+## Deploy de Rollup
+  Instalamos el paquete de github:
+  ```bash
+  npm install gh-pages -D
+  #añadimos nuestro script en package.json
+  "deploy": "gh-pages -d dist"
+  ```
+  
+  Ejecutamos el script:
+  ```bash
+  npm run deploy
+  ```
