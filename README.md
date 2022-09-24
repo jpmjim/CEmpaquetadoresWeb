@@ -315,3 +315,22 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
 ## Proyecto a empaquetar: Fake API
   - Utilizaremos la [API de Platzi](https://fakeapi.platzi.com/).
   - Los [estilos](https://gist.github.com/gndx/a7dc22ce7d5364d7f57c5fefeafa67cc) para el proyecto en el archivo **styles.css**.
+
+## Empaquetando nuestro proyecto con Rollup
+  Rollup no cuenta con un entorno desarrollo local nativa, añadiremos un paquete que nos ayudara:
+  ```bash
+  #dev-server
+  npm i @web/dev-server -D
+  ```
+
+  Scripts que usaremos:
+  ```bash
+  #para el entorno de desarrollo local
+  "start": "web-dev-server --config web-dev-server.config.js",
+  #para genere la preparacion del proyecto
+  "build": "rollup -c"
+  ```
+
+  Corremos los scripts en la terminal:
+  ```bash
+  #primero nuestro build para generar la carpeta dist
