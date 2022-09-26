@@ -379,3 +379,18 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   #corremos el proyecto
   npm run dev
   ```
+
+## Ventajas y Desventajas de los empaquetadores
+  Utilizar un empaquetador va a permitir sacarle ventaja al proyecto, y con esto poderlo preparar para vivir en un entorno totalmente controlado tener cada uno de los elementos clave organizados para ser llevados a equipos de trabajos grandes que puedan compartir y no tener ningun inconveniente a la hora de estar trabajando con cada uno de los proyectos que se participe.
+
+  Ventajas:
+  - Optimizar imagenes
+  - Preparar los estilos, las fuentes
+  - Copiar archivos
+  - Optimizar todo el proyecto
+  - Tener todo un flujo que nos permite llevarlo a un integración mucho mayor de forma automatica.
+  - Ventaja siempre es reflejada en el usuario.
+
+  Desventajas:
+  - Al inicio le añade una capa de complejidad, de entender como funcionan.
+  - Un aprendizaje por bloques hasta tener todo el conocimiento creando un bloque.
