@@ -351,3 +351,31 @@ Es una pieza de software que permite tener todos los elementos (código, imágen
   ```bash
   npm run deploy
   ```
+
+## Empquetando un proyecto con Vite
+  Es una de las herramientas mas poderosas en el entorno de empaquetadores, por que combina diferentes tecnologias y una serie de recursos automatizados.
+  Podemos usar vanilla, vue, react, lite element y svelte con javascript o typescipt. 
+
+  Para iniciar un proyecto con vite desde la terminal ingresamos el siguiente comando:
+  ```bash
+  npm create vite@latest
+  ```
+  Donde asiganremos un nombre a un nuestro proyecto:
+  ```bash
+  #poder elegir en que entorno queremos trabajar
+  * vanilla
+  * vue
+  * react
+  * preact
+  * lit
+  * svelte
+  ```
+
+  Ingresamos a la carpeta del proyecto:
+  ```bash
+  cd name_proyect
+  #instalamos dependencias
+  npm install
+  #corremos el proyecto
+  npm run dev
+  ```
